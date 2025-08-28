@@ -1,0 +1,543 @@
+html{
+  scroll-behavior: smooth;
+}
+.header {
+  float: left;
+  margin: 0%;
+  color: black;
+}
+
+body {
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about {
+  text-decoration: none;
+  padding: 20px;
+}
+
+div ul {
+  margin: 0%;
+  float: right;
+  overflow: hidden;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li {
+  padding: 10px;
+}
+
+#para {
+  color: black;
+  justify-content: center;
+  font-size: 20px;
+}
+
+#para-h4 {
+  color: black;
+  font-size: 45px;
+  margin: 0px;
+}
+
+.home-content {
+  margin: 130px;
+}
+
+button {
+  margin: 10px;
+  background-color: rgb(238, 231, 231);
+  color: black;
+}
+
+.footer {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-left: -140px;
+}
+
+.footer div {
+  margin-left: 200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.p {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  margin: 50px;
+  box-shadow: 5px 5px 5px 5px rgb(54, 52, 52);
+}
+
+.aboutdiv {
+  display: flex;
+  padding: 20px;
+
+}
+
+#aboutme {
+  float: right;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.abt-block {
+  position: relative;
+
+  footer {
+    position: absolute;
+    left: 18%;
+    top: 63%;
+  }
+}
+
+.hobby {
+  display: flex;
+  margin-left: 40%;
+   transform: translateY(-50px); 
+  p {
+    padding-top: 46px;
+  }
+}
+.skills-sec{
+  display: flex;
+ margin: 0px;
+  flex-direction: column;
+  align-items: center;
+
+}
+.progress-ring  circle{
+  fill: none;
+  stroke-width: 10;
+}
+.bg{
+stroke: #eee;
+
+}
+.progress{
+ stroke: gray;
+  stroke-dasharray: 314; /* 314 is approximately 2πr, where r=50 */
+  stroke-dashoffset: calc(314 - (314 * 75) / 100);/*It subtracts the filled part from the full circumference*/
+  transform: rotate(-90deg);/*Rotating -90deg moves the starting point to the top (12 o’clock)*/
+  transform-origin: 50% 50%;/*circle rotates around its center*/
+  transition: stroke-dashoffset 0.5s ease;/* Enables smooth animation*/
+  margin: 50px;
+}
+.value {
+  margin-left: 180px;
+  margin-top: 90px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translate(-50%, -50%);/*This moves the element back by half of its width and height,centering the item*/
+}
+.label{
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.svg-container{
+  width: 350px;
+  height: 350px;
+  background-color: rgb(231, 223, 223);
+  margin: 30px ;
+  border-radius: 10px;
+ }
+.blue-circle{
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.css-foot{
+  display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+.week{
+  display: block;
+  margin-left: 30px;
+  unicode-bidi: isolate;
+   font-size: 20px;
+  font-weight: bold;
+ 
+}
+.month{
+  display: block;
+  margin-left: 130px;
+  margin-right: 80px;
+   font-size: 20px;
+  font-weight: bold;
+}
+.progress2{
+ stroke: gray;
+  stroke-dasharray: 314; /* 314 is approximately 2πr, where r=50 */
+  stroke-dashoffset: calc(314 - (314 * 85) / 100);/*It subtracts the filled part from the full circumference*/
+  transform: rotate(-90deg);/*Rotating -90deg moves the starting point to the top (12 o’clock)*/
+  transform-origin: 50% 50%;/*circle rotates around its center*/
+  transition: stroke-dashoffset 0.5s ease;/* Enables smooth animation*/
+}
+.progress3{
+ stroke: gray;
+  stroke-dasharray: 314; /* 314 is approximately 2πr, where r=50 */
+  stroke-dashoffset: calc(314 - (314 * 68) / 100);/*It subtracts the filled part from the full circumference*/
+  transform: rotate(-90deg);/*Rotating -90deg moves the starting point to the top (12 o’clock)*/
+  transform-origin: 50% 50%;/*circle rotates around its center*/
+  transition: stroke-dashoffset 0.5s ease;/* Enables smooth animation*/
+  }
+.row{
+  display: flex;
+  margin: 30px;
+}
+.per{
+  margin-left: 20px;
+}
+.per-month{
+  margin-left: 30px;
+}
+.services-head{
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+   }
+   .web-design{
+  background-color: rgb(177, 180, 147);
+  margin-top: 60px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-left:70px;
+  margin-top: 30px;
+  position: absolute;
+    
+   }
+   .web{
+    margin-top: 60px;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 29px;
+    background-color: white;
+    size: 10px;
+    
+   }
+   .web-box{
+   width: 265px;
+    height: 227px;
+    background-color: white;
+    position: relative;
+    margin-left:60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(204, 201, 201);
+    p{
+      padding-left: 30px;
+      color: rgb(179, 169, 169);
+    }
+   }
+   .web-content{
+        padding-top: 65px;
+        padding-left: 30px;
+   }
+   .first-skill{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -30px;
+   }
+   .skill-row{
+    display: flex;
+   }
+   .second-row{
+    display: flex;
+   }
+   .service-foot{
+        margin-top: 86px;
+   margin-left: 89px;
+   padding-right: 478px;
+   color: white;
+  
+   }
+   .ser{
+     background-color:  rgb(177, 180, 147);
+     button{
+      border: none;
+      width: 140px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 1px;
+    color: rgb(177, 180, 147);
+    background-color: white;
+     }
+   }
+   .project-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .pro-images{
+    img{
+    width: 291px;
+    height: 267px;
+    margin: 17px;
+    border-radius: 5px;
+    }
+  }
+  .pro-foot{
+   margin-left: 300px;
+     position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 224%;
+    background-color: rgb(177, 180, 147);
+    }
+    .project-box{
+      margin-top: 80px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(177, 180, 147);
+  }
+  .project-content,.blog3line,.contactusline{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .comment-box{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding-top: 28px;
+    padding-left: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(177, 180, 147);
+    border-radius: 10px;
+    span{
+      font-size: 50px;
+    }
+    img{
+      margin-left: 10px;
+      margin-top: 30px;
+      border-radius: 50px;
+    }
+  }
+  .pro-row{
+    display: flex;
+  }
+  .blog3line{
+    margin-top: 50px;
+  }
+  .blog-box{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(230, 222, 222);
+  }
+  .blogimage{
+    margin-left: 50px;
+  }
+  .blogcontent1{
+    margin-left: 100px;
+    margin-top: -50px;
+    margin-right: 900px;
+    h4{
+      color: rgb(183, 185, 157);
+    }
+    p{
+      color: rgb(116, 113, 113);
+      font-size: 20px;
+    }
+  }
+  .blogrow{
+    display: flex;
+  }
+  .blogcontent2{
+    margin-left: 500px;
+    margin-top: -210px;
+    margin-right: 500px;
+    h4{
+      color: rgb(183, 185, 157);
+    }
+    p{
+      color: rgb(116, 113, 113);
+      font-size: 20px;
+    }
+  }
+  .blogcontent3{
+    margin-left: 904px;
+    margin-top: -210px;
+    margin-right: 80px;
+    h4{
+      color: rgb(183, 185, 157);
+    }
+    p{
+      color: rgb(116, 113, 113);
+      font-size: 20px;
+    }
+  }
+  .contactusline{
+    h5{
+      color: rgb(183, 185, 157);
+    }
+    p{
+      color: rgb(116, 113, 113);
+      font-size: 20px;
+    }
+  }
+  .contactbox{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(235, 227, 227);
+    border-radius: 10px;
+    margin-left: 290px;
+    padding-top: 50px;
+    padding-left: 50px;
+    button{
+          width: 181px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 2px;
+      background-color:rgb(177, 180, 147); 
+    }
+  }
+  .namemail{
+    display: flex;
+    gap: 20px;
+    .name{
+      width:330px;
+      height: 40px;
+    }
+    .mail{
+      width:310px;
+      height: 40px;
+    }
+  }
+  .Sub{
+     width:95%;
+      height: 40px;
+      margin-top: 15px;
+  }
+  .msg{
+    width: 95%;
+    height: 150px;
+    margin-top: 15px;
+    placeholder{
+      margin-top: 10px;
+    }
+  }
+ 
+  
+  .loc{
+    width: 50px;
+    height: 35px;
+    background-color: gray;
+    border-radius: 70px;
+    gap: 9px;
+    padding: 0;
+  }
+  .lastfooter{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(37, 35, 35);
+    margin-top: 50px;
+  }
+  .footalign{
+    display: flex;
+    color: white;
+   }
+  .foot1,.foot2,.foot3,.foot4{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 0px;
+   align-items: flex-start;
+   margin-left: 100px;
+  margin-right: 100px;
+  width: 50px;
+  }
+  .foot1{
+    margin-right: 100px;
+    margin-right: -900;
+    font-size: 20px;
+    p{
+      color: rgb(168, 156, 156);
+    }
+  }
+  .foot2{
+    display: block;
+    margin-right: 100px;
+    margin-left: 190px;
+    font-size: 18px;
+    gap: 0px;
+    p{
+      color: rgb(168, 156, 156);
+      cursor: pointer;
+    }
+  }
+  .foot3{
+    display: flex;
+    padding: 0px;
+    margin-left: 150px;
+    display: flex;
+    margin-right: 10px;
+    font-size: 18px;
+    gap: 0px;
+    p{
+      color: rgb(168, 156, 156);
+      cursor: pointer;
+    }
+  }
+  .foot4{
+    display: flex;
+    margin-left: 150px;
+    font-size: 18px;
+    gap: 0px;
+    p{
+      color: rgb(168, 156, 156);
+      cursor: pointer;
+    }
+    img{
+      background-color: white;
+      margin-top: 5px;
+    }
+  }
+  .footloc{
+    display: flex;
+    margin-top: 5px;
+  }
+  .communication{
+    display: flex;
+    }
+    .ls{
+    margin-right: 15px;
+    }
+    .lastline{
+      color: rgb(204, 189, 189);
+    margin-left: -718px;
+    margin-top: 531px;
+    font-size: 20px;
+    }
+  
+  
